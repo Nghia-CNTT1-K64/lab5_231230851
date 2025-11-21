@@ -7597,23 +7597,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kì 1 năm 3\\LapTrinhWeb\\ThucHanh\\Day14_Lab5\\Lap5_AJAX\\TH1_lms\\TH1_lms.csproj",
+      "projectUniqueName": "G:\\code-tren-lop\\lapTrinhWeb\\Lab5\\Web_Weekly_AJAX\\Lap5_AJAX\\TH1_lms\\TH1_lms.csproj",
       "projectName": "TH1_lms",
-      "projectPath": "D:\\Kì 1 năm 3\\LapTrinhWeb\\ThucHanh\\Day14_Lab5\\Lap5_AJAX\\TH1_lms\\TH1_lms.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\Kì 1 năm 3\\LapTrinhWeb\\ThucHanh\\Day14_Lab5\\Lap5_AJAX\\TH1_lms\\obj\\",
+      "projectPath": "G:\\code-tren-lop\\lapTrinhWeb\\Lab5\\Web_Weekly_AJAX\\Lap5_AJAX\\TH1_lms\\TH1_lms.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "G:\\code-tren-lop\\lapTrinhWeb\\Lab5\\Web_Weekly_AJAX\\Lap5_AJAX\\TH1_lms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

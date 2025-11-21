@@ -1,78 +1,96 @@
 ﻿@model IEnumerable<TH1_lms.Models.Learner>
-
 @{
     ViewData["Title"] = "Index";
     Layout = "MyLayout";
 }
 
-<h1>Index</h1>
-
 <h1>Danh sách Learners</h1>
+
 <!-- Gọi ViewComponent Major -->
 @await Component.InvokeAsync("Major")
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
 </p>
-<div id="content">
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.LastName)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.FirstMidName)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.EnrollmentDate)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Major)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.LastName)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.FirstMidName)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.EnrollmentDate)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Major.MajorName)
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.LearnerID">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.LearnerID">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.LearnerID">Delete</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+
+<!-- FORM TÌM KIẾM -->
+<div class="row mb-3">
+    <div class="col-md-6">
+        <input type="text"
+               id="searchInput"
+               class="form-control"
+               placeholder="Tìm kiếm theo tên..."
+               value="@ViewBag.searchString" />
+    </div>
+    <div class="col-md-3">
+        <button id="btnSearch" class="btn btn-success">Tìm kiếm</button>
+        <button id="btnReset" class="btn btn-secondary">Reset</button>
+    </div>
 </div>
 
-@section Scripts{
-    <script>
-        $(".major-item").click(function () { // lấy được .major-item vì đã gọi view component RenderMajor ở trên
-            var id = $(this).attr("data-id");  //attr lấy giá trị của data-id (data-id từ RenderMajor), //this là thẻ li mà mình click vào
+<div id="content">
+    <!-- Partial View sẽ được load vào đây -->
+    @await Html.PartialAsync("LearnerTable", Model)
+</div>
 
+@section Scripts {
+    <script>
+        // Biến toàn cục lưu trạng thái filter
+        var currentMid = @(ViewBag.mid ?? "null");
+        var currentKeyword = "@(ViewBag.searchString ?? "")";
+
+        // Click vào major để lọc
+        $(".major-item").click(function () {
+            var id = $(this).attr("data-id");
+            currentMid = id;
+            loadLearners(id, currentKeyword, 1);
+        });
+
+        // Click nút tìm kiếm
+        $("#btnSearch").click(function () {
+            currentKeyword = $("#searchInput").val();
+            loadLearners(currentMid, currentKeyword, 1);
+        });
+
+        // Enter trong ô tìm kiếm
+        $("#searchInput").keypress(function (e) {
+            if (e.which == 13) { // Enter key
+                currentKeyword = $(this).val();
+                loadLearners(currentMid, currentKeyword, 1);
+            }
+        });
+
+        // Click nút Reset
+        $("#btnReset").click(function () {
+            currentMid = null;
+            currentKeyword = "";
+            $("#searchInput").val("");
+            loadLearners(null, "", 1);
+        });
+
+        // Hàm chung để load learners
+        function loadLearners(mid, keyword, page) {
             $.ajax({
-                url: "/Learners/LearnerByMajorID",
-                data: { mid: id },
-                success: function (response) { //respone chính là LearnerTable vì LearnerByMajorID return về LearnerTable
-                    $("#content").html(response); //thay thể toàn bộ thẻ <div id = "content"> bằng LearnerTable
+                url: "/Learners/LearnerFilter",
+                data: {
+                    mid: mid,
+                    keyword: keyword,
+                    pageIndex: page
+                },
+                success: function (response) {
+                    $("#content").html(response);
+                },
+                error: function () {
+                    alert("Có lỗi xảy ra!");
                 }
             });
+        }
+
+        // Xử lý click phân trang (delegate event vì phân trang được load động)
+        $(document).on("click", ".page-link", function (e) {
+            e.preventDefault();
+            var page = $(this).data("page");
+            loadLearners(currentMid, currentKeyword, page);
         });
     </script>
 }
-

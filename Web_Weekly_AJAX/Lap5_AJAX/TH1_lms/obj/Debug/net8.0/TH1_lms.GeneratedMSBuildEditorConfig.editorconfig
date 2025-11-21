@@ -17,101 +17,105 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TH1_lms
 build_property.RootNamespace = TH1_lms
-build_property.ProjectDir = D:\Kì 1 năm 3\LapTrinhWeb\ThucHanh\Day14_Lab5\Lap5_AJAX\TH1_lms\
+build_property.ProjectDir = G:\code-tren-lop\lapTrinhWeb\Lab5\Web_Weekly_AJAX\Lap5_AJAX\TH1_lms\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Kì 1 năm 3\LapTrinhWeb\ThucHanh\Day14_Lab5\Lap5_AJAX\TH1_lms
+build_property.MSBuildProjectDirectory = G:\code-tren-lop\lapTrinhWeb\Lab5\Web_Weekly_AJAX\Lap5_AJAX\TH1_lms
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Home/Index.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Home/Privacy.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Learners/Create.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Learners/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Learners/Delete.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Learners/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Learners/Details.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Learners/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Learners/Edit.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Learners/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Learners/Index.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Learners/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Learners/LearnerTable.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Learners/LearnerTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lcnNcTGVhcm5lclRhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Shared/Components/Major/RenderMajor.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Learners/LearnsTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5lcnNcTGVhcm5zVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Shared/Components/Major/RenderMajor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWFqb3JcUmVuZGVyTWFqb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Shared/Components/Render/RenderLeftMenu.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Shared/Components/Render/RenderLeftMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmVuZGVyXFJlbmRlckxlZnRNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Shared/Error.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Shared/Footer.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Shared/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Shared/LeftMenu.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Shared/LeftMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExlZnRNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Shared/MyLayout.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Shared/MyLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE15TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Shared/MyLayoutHelper.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Shared/MyLayoutHelper.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE15TGF5b3V0SGVscGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Shared/TopNav.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Shared/TopNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRvcE5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Student/Create.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Student/Index.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/_ViewImports.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/_ViewStart.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 1 năm 3/LapTrinhWeb/ThucHanh/Day14_Lab5/Lap5_AJAX/TH1_lms/Views/Shared/_Layout.cshtml]
+[G:/code-tren-lop/lapTrinhWeb/Lab5/Web_Weekly_AJAX/Lap5_AJAX/TH1_lms/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-p5xith5oaz
